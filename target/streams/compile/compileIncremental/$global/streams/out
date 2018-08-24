@@ -1,0 +1,262 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/temp/development/time-sheets/app/repository/UserRepository.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/routes.java, /home/temp/development/time-sheets/app/repository/TimeSheetRepository.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/index.template.scala, /home/temp/development/time-sheets/app/model/LoginDetails.scala, /home/temp/development/time-sheets/app/Module.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/main.template.scala, /home/temp/development/time-sheets/app/model/Day.scala, /home/temp/development/time-sheets/app/model/TimeSheet.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/welcome.template.scala, /home/temp/development/time-sheets/app/services/TimeSheetService.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /home/temp/development/time-sheets/app/controllers/LoggingOnSystem.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/timeSheet.template.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/router/Routes.scala, /home/temp/development/time-sheets/app/model/Month.scala, /home/temp/development/time-sheets/app/services/AuthService.scala, /home/temp/development/time-sheets/app/model/UserAccountType.scala, /home/temp/development/time-sheets/app/model/User.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/temp/development/time-sheets/app/repository/UserRepository.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/routes.java, /home/temp/development/time-sheets/app/repository/TimeSheetRepository.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/index.template.scala, /home/temp/development/time-sheets/app/model/LoginDetails.scala, /home/temp/development/time-sheets/app/Module.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/main.template.scala, /home/temp/development/time-sheets/app/model/Day.scala, /home/temp/development/time-sheets/app/model/TimeSheet.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/welcome.template.scala, /home/temp/development/time-sheets/app/services/TimeSheetService.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /home/temp/development/time-sheets/app/controllers/LoggingOnSystem.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/timeSheet.template.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/router/Routes.scala, /home/temp/development/time-sheets/app/model/Month.scala, /home/temp/development/time-sheets/app/services/AuthService.scala, /home/temp/development/time-sheets/app/model/UserAccountType.scala, /home/temp/development/time-sheets/app/model/User.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/temp/development/time-sheets/app/repository/UserRepository.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/routes.java, /home/temp/development/time-sheets/app/repository/TimeSheetRepository.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/index.template.scala, /home/temp/development/time-sheets/app/model/LoginDetails.scala, /home/temp/development/time-sheets/app/Module.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/main.template.scala, /home/temp/development/time-sheets/app/model/Day.scala, /home/temp/development/time-sheets/app/model/TimeSheet.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/welcome.template.scala, /home/temp/development/time-sheets/app/services/TimeSheetService.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /home/temp/development/time-sheets/app/controllers/LoggingOnSystem.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/timeSheet.template.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/router/Routes.scala, /home/temp/development/time-sheets/app/model/Month.scala, /home/temp/development/time-sheets/app/services/AuthService.scala, /home/temp/development/time-sheets/app/model/UserAccountType.scala, /home/temp/development/time-sheets/app/model/User.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/temp/development/time-sheets/app/repository/UserRepository.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/routes.java, /home/temp/development/time-sheets/app/repository/TimeSheetRepository.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/index.template.scala, /home/temp/development/time-sheets/app/model/LoginDetails.scala, /home/temp/development/time-sheets/app/Module.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/main.template.scala, /home/temp/development/time-sheets/app/model/Day.scala, /home/temp/development/time-sheets/app/model/TimeSheet.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/welcome.template.scala, /home/temp/development/time-sheets/app/services/TimeSheetService.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /home/temp/development/time-sheets/app/controllers/LoggingOnSystem.scala, /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/timeSheet.template.scala, /home/temp/development/time-sheets/target/scala-2.11/routes/main/router/Routes.scala, /home/temp/development/time-sheets/app/model/Month.scala, /home/temp/development/time-sheets/app/services/AuthService.scala, /home/temp/development/time-sheets/app/model/UserAccountType.scala, /home/temp/development/time-sheets/app/model/User.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 21 sources: invalidated sources (21) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 20 Scala sources and 1 Java source to /home/temp/development/time-sheets/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.11.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.11.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 472f025b, interfacing (CompilerInterface) with Scala compiler version 2.11.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-encoding[0m
+[0m[[0mdebug[0m] [0m	utf8[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/temp/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/temp/development/time-sheets/target/scala-2.11/classes:/home/temp/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/temp/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/temp/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/temp/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.12.jar:/home/temp/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.12.jar:/home/temp/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.12.jar:/home/temp/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.12.jar:/home/temp/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.12.jar:/home/temp/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/temp/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/temp/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.12.jar:/home/temp/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.12.jar:/home/temp/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.12.jar:/home/temp/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.6.jar:/home/temp/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.8.1.jar:/home/temp/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/temp/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.7.8.jar:/home/temp/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.7.8.jar:/home/temp/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.7.8.jar:/home/temp/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.7.8.jar:/home/temp/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.7.8.jar:/home/temp/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.12.jar:/home/temp/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/temp/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.21.jar:/home/temp/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.21.jar:/home/temp/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.12.jar:/home/temp/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/home/temp/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.14.jar:/home/temp/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.14.jar:/home/temp/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar:/home/temp/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/temp/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/temp/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.14.jar:/home/temp/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/temp/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/temp/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/temp/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/temp/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/temp/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/temp/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/temp/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar:/home/temp/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/temp/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.12.jar:/home/temp/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.8.jar:/home/temp/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.8.jar:/home/temp/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.41.Final.jar:/home/temp/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.41.Final.jar:/home/temp/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.41.Final.jar:/home/temp/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.41.Final.jar:/home/temp/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.41.Final.jar:/home/temp/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.41.Final.jar:/home/temp/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar:/home/temp/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.12.jar:/home/temp/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/temp/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/temp/.ivy2/cache/org.reactivemongo/play2-reactivemongo_2.11/jars/play2-reactivemongo_2.11-0.11.14.jar:/home/temp/.ivy2/cache/org.reactivemongo/reactivemongo_2.11/jars/reactivemongo_2.11-0.11.14.jar:/home/temp/.ivy2/cache/org.reactivemongo/reactivemongo-bson-macros_2.11/jars/reactivemongo-bson-macros_2.11-0.11.14.jar:/home/temp/.ivy2/cache/org.reactivemongo/reactivemongo-bson_2.11/jars/reactivemongo-bson_2.11-0.11.14.jar:/home/temp/.ivy2/cache/org.reactivemongo/reactivemongo-shaded/jars/reactivemongo-shaded-0.11.14.jar:/home/temp/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.5.jar:/home/temp/.ivy2/cache/org.reactivemongo/reactivemongo-play-json_2.11/jars/reactivemongo-play-json_2.11-0.11.14.jar[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/model/Month.scala:85: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
+[0m[[33mwarn[0m] [0m        case jan  => Json.obj("months" -> "January", "days" -> Json.toJson(jan.days))[0m
+[0m[[33mwarn[0m] [0m             ^[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/model/Month.scala:86: unreachable code due to variable pattern 'jan' on line 85[0m
+[0m[[33mwarn[0m] [0m        case feb  => Json.obj("months" -> "Febuary", "days" -> Json.toJson(feb.days))[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/model/Month.scala:87: unreachable code due to variable pattern 'jan' on line 85[0m
+[0m[[33mwarn[0m] [0m        case mar  => Json.obj("months" -> "March", "days" -> Json.toJson(mar.days))[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/model/Month.scala:88: unreachable code due to variable pattern 'jan' on line 85[0m
+[0m[[33mwarn[0m] [0m        case apr  => Json.obj("months" -> "April", "days" -> Json.toJson(apr.days))[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/model/Month.scala:89: unreachable code due to variable pattern 'jan' on line 85[0m
+[0m[[33mwarn[0m] [0m        case may  => Json.obj("months" -> "May", "days" -> Json.toJson(may.days))[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/model/Month.scala:90: unreachable code due to variable pattern 'jan' on line 85[0m
+[0m[[33mwarn[0m] [0m        case june => Json.obj("months" -> "June", "days" -> Json.toJson(june.days))[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/model/Month.scala:91: unreachable code due to variable pattern 'jan' on line 85[0m
+[0m[[33mwarn[0m] [0m        case july => Json.obj("months" -> "July", "days" -> Json.toJson(july.days))[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/model/Month.scala:92: unreachable code due to variable pattern 'jan' on line 85[0m
+[0m[[33mwarn[0m] [0m        case aug  => Json.obj("months" -> "August", "days" -> Json.toJson(aug.days))[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/model/Month.scala:93: unreachable code due to variable pattern 'jan' on line 85[0m
+[0m[[33mwarn[0m] [0m        case sep  => Json.obj("months" -> "September", "days" -> Json.toJson(sep.days))[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/model/Month.scala:94: unreachable code due to variable pattern 'jan' on line 85[0m
+[0m[[33mwarn[0m] [0m        case oct  => Json.obj("months" -> "October", "days" -> Json.toJson(oct.days))[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/model/Month.scala:95: unreachable code due to variable pattern 'jan' on line 85[0m
+[0m[[33mwarn[0m] [0m        case nov  => Json.obj("months" -> "November", "days" -> Json.toJson(nov.days))[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/model/Month.scala:96: unreachable code due to variable pattern 'jan' on line 85[0m
+[0m[[33mwarn[0m] [0m        case dec  => Json.obj("months" -> "December", "days" -> Json.toJson(dec.days))[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/services/TimeSheetService.scala:70: match may not be exhaustive.[0m
+[0m[[33mwarn[0m] [0mIt would fail on the following input: Nil[0m
+[0m[[33mwarn[0m] [0m    days match {[0m
+[0m[[33mwarn[0m] [0m    ^[0m
+[0m[[33mwarn[0m] [0m/home/temp/development/time-sheets/app/repository/TimeSheetRepository.scala:68: package object collection in package collection is deprecated: Use [[reactivemongo.play.json.collection]][0m
+[0m[[33mwarn[0m] [0m  val coll = reactiveMongoApi.database.map(_.collection(collectionName))[0m
+[0m[[33mwarn[0m] [0m                                                       ^[0m
+[0m[[33mwarn[0m] [0m14 warnings found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 7.400613219 s[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@795ea957 directly...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.403447309 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.034399499 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.44246451 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, _defaultPrefix, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, ReverseAssets, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, ne, versioned, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/routes.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/main.template.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/main.template.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/main.template.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/main.template.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/main.template.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, main, productPrefix, notifyAll, isInstanceOf, <init>, apply, ==, clone, $init$, main_Scope0, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/index.template.scala: Set(format, _display_, main, <init>, apply)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, _defaultPrefix, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, ReverseAssets, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, ne, versioned, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/main.template.scala: Set(ReverseAssets, <init>, versioned)[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/routes.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/app/controllers/LoggingOnSystem.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/app/controllers/LoggingOnSystem.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/app/controllers/LoggingOnSystem.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/app/controllers/LoggingOnSystem.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/app/controllers/LoggingOnSystem.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	request2session, request2flash, request2lang.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/index.template.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/index.template.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/index.template.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/index.template.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/index.template.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, index_Scope0, productPrefix, notifyAll, isInstanceOf, <init>, apply, ==, clone, $init$, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, index, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/routes.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/routes.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/routes.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/routes.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/routes.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, Assets, wait, routes, equals, routes$javascript, notifyAll, <init>, toString, getClass, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/main.template.scala: Set(Assets, routes, <init>)[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/routes.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/app/Module.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/app/Module.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/app/Module.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/app/Module.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/app/Module.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, bindListener, wait, $asInstanceOf, requestStaticInjection, requireBinding, binder, equals, getProvider, asInstanceOf, bindScope, synchronized, bind, $isInstanceOf, configure, requestInjection, notifyAll, addError, isInstanceOf, bindInterceptor, mongoFeature, <init>, getMembersInjector, ==, clone, collectionName, bindConstant, toString, !=, getClass, install, currentStage, ne, eq, Module, convertToTypes, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/app/model/Month.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/app/model/Month.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/app/model/Month.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/app/model/Month.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/app/model/Month.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	reads, writes.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /home/temp/development/time-sheets/app/model/Month.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/temp/development/time-sheets/app/model/TimeSheet.scala[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/temp/development/time-sheets/app/services/TimeSheetService.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/app/model/UserAccountType.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/app/model/UserAccountType.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/app/model/UserAccountType.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/app/model/UserAccountType.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/app/model/UserAccountType.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, productArity, equals, asInstanceOf, Individual, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, Organ, isInstanceOf, ==, clone, Agent, $init$, toString, !=, get, getClass, Organisation, ne, eq, productIterator, ##, finalize, productElement, hashCode, UserAccountType.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/app/model/TimeSheet.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/app/model/TimeSheet.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/app/model/TimeSheet.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/app/model/TimeSheet.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/app/model/TimeSheet.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	format.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /home/temp/development/time-sheets/app/model/TimeSheet.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/temp/development/time-sheets/app/repository/TimeSheetRepository.scala[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/temp/development/time-sheets/app/services/TimeSheetService.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/app/model/LoginDetails.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/app/model/LoginDetails.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/app/model/LoginDetails.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/app/model/LoginDetails.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/app/model/LoginDetails.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, copy$default$2, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, $init$, copy, toString, LoginDetails, !=, getClass, copy$default$1, ne, eq, productIterator, userName, ##, finalize, productElement, hashCode, password.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/temp/development/time-sheets/app/services/AuthService.scala: Set(<init>, LoginDetails, password)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/app/services/AuthService.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/app/services/AuthService.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/app/services/AuthService.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/app/services/AuthService.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/app/services/AuthService.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, AuthService, isInstanceOf, <init>, addUserDetails, remove, ==, clone, exists, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/timeSheet.template.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/timeSheet.template.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/timeSheet.template.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/timeSheet.template.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/timeSheet.template.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, timeSheet_Scope0, isInstanceOf, <init>, apply, timeSheet, ==, clone, $init$, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/target/scala-2.11/routes/main/router/RoutesPrefix.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/target/scala-2.11/routes/main/router/RoutesPrefix.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/router/RoutesPrefix.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/router/RoutesPrefix.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/target/scala-2.11/routes/main/router/RoutesPrefix.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, byNamePrefix, wait, $asInstanceOf, equals, prefix, asInstanceOf, RoutesPrefix, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, setPrefix, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/temp/development/time-sheets/target/scala-2.11/routes/main/controllers/routes.java[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/temp/development/time-sheets/target/scala-2.11/routes/main/router/Routes.scala: Set(prefix, asInstanceOf, RoutesPrefix, isInstanceOf, getClass, setPrefix)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/welcome.template.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/welcome.template.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/welcome.template.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/welcome.template.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/target/scala-2.11/twirl/main/views/html/welcome.template.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, format, welcome_Scope0, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, apply, ==, clone, $init$, copy, toString, !=, welcome, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/app/repository/UserRepository.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/app/repository/UserRepository.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/app/repository/UserRepository.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/app/repository/UserRepository.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/app/repository/UserRepository.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	userWriter.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /home/temp/development/time-sheets/app/repository/UserRepository.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/temp/development/time-sheets/app/services/AuthService.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/app/model/User.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/app/model/User.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/app/model/User.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/app/model/User.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/app/model/User.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	format.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /home/temp/development/time-sheets/app/model/User.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/temp/development/time-sheets/app/repository/UserRepository.scala[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/temp/development/time-sheets/app/services/AuthService.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/app/model/Day.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/app/model/Day.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/app/model/Day.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/app/model/Day.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/app/model/Day.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	format.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /home/temp/development/time-sheets/app/model/Day.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/temp/development/time-sheets/app/model/Month.scala[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/temp/development/time-sheets/app/services/TimeSheetService.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/app/repository/TimeSheetRepository.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/app/repository/TimeSheetRepository.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/app/repository/TimeSheetRepository.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Including /home/temp/development/time-sheets/app/repository/UserRepository.scala by /home/temp/development/time-sheets/app/repository/TimeSheetRepository.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/app/repository/TimeSheetRepository.scala, /home/temp/development/time-sheets/app/repository/UserRepository.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/app/repository/TimeSheetRepository.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, MongoResult, wait, $asInstanceOf, reactiveMongoApi, MongoTimeSheet, productArity, equals, coll, asInstanceOf, synchronized, A, $isInstanceOf, create, canEqual, productPrefix, notifyAll, Failure, isInstanceOf, <init>, MongoTimesheetRepository, TimeSheetRepository, ==, clone, collectionName, $init$, toString, !=, get, getClass, Success, ne, timeChange, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/temp/development/time-sheets/app/Module.scala: Set(MongoTimeSheet, <init>, MongoTimesheetRepository, TimeSheetRepository, collectionName, get)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/temp/development/time-sheets/app/services/TimeSheetService.scala: Set(asInstanceOf, A, isInstanceOf, <init>, TimeSheetRepository, ==, get)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/temp/development/time-sheets/app/repository/UserRepository.scala: Set(MongoResult, reactiveMongoApi, MongoTimeSheet, coll, A, Failure, <init>, ==, collectionName, toString, get, Success, ne)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/temp/development/time-sheets/app/services/AuthService.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/app/services/TimeSheetService.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/app/services/TimeSheetService.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/app/services/TimeSheetService.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/app/services/TimeSheetService.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/app/services/TimeSheetService.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	localDateOrdering.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /home/temp/development/time-sheets/app/services/TimeSheetService.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/temp/development/time-sheets/app/controllers/LoggingOnSystem.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/temp/development/time-sheets/target/scala-2.11/routes/main/router/Routes.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/temp/development/time-sheets/target/scala-2.11/routes/main/router/Routes.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/router/Routes.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/temp/development/time-sheets/target/scala-2.11/routes/main/router/Routes.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/temp/development/time-sheets/target/scala-2.11/routes/main/router/Routes.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, badRequest, wait, $asInstanceOf, routes, createInvoker, equals, prefix, asInstanceOf, documentation, synchronized, $isInstanceOf, handlerFor, notifyAll, isInstanceOf, asJava, errorHandler, <init>, ==, clone, $init$, Routes, toString, !=, fakeValue, getClass, ne, withPrefix, call, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
